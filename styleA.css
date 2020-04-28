@@ -1,0 +1,108 @@
+body{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('ota.jpg');
+background-size:cover;
+background-position:centre;
+	background-repeat:no-repeat;
+	padding:50px 30px;
+	
+	}
+	.loginbox{
+	width:320px;
+	height:420px;
+	background:rgba(25,25,25,0.5);
+	color:#fff;
+	top:50%;
+	left:50%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+	box-sizing:border-box;
+	padding:50px 30px;
+
+}
+h1
+{
+	margin:0;
+	padding:0 0 20px;
+	text-align:center;
+	font-size:20px;
+}
+.loginbox p{
+	margin:10;
+	padding:0;
+	font-weight:bold;
+}
+.loginbox input {
+	width:100%;
+	margin-bottom:10px;
+}
+.loginbox input[type="text"] , input[type="email"]
+{
+	border:none;
+	boder-bottom:1px solid #fff;
+	background:#FFFFFF;
+	outline:none;
+	height:40px;
+	color:#000;
+	font-size:16px;
+	border-radius:20px;
+	padding:20px;
+}
+
+.loginbox input[type="text"] , input[type="password"]
+{
+	border:none;
+	boder-bottom:1px solid #fff;
+	background:#FFFFFF;
+	outline:none;
+	height:40px;
+	color:#000;
+	font-size:16px;
+	border-radius:20px;
+	padding:20px;
+}
+.loginbox input[type="submit"]
+{
+	border:none;
+	outline:none;
+	height:40px;
+	background:#fff;
+	color:#000;
+	font-size:18px;
+	border-radius:20px;
+}
+.loginbox input[type="submit"]:hover
+{
+	cursor:pointer;
+	background:#1A1B4C;
+	color:#fff;
+	
+}
+.loginbox a{
+	text-decoration:none;
+	font-size:12px;
+	line-height:20px;
+	color:#FFFFFF;
+}
+
+.loginbox a:hover{
+	color:#ffc107;
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

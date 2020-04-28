@@ -1,0 +1,48 @@
+body{
+	font-size: 14px;
+	overflow-x: hidden;
+	color: white;
+	font-family: 'Flamenco', cursive;
+	text-align:center-left;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('butterfly.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+}
+
+.my{
+	width: 1180px;
+	padding:0 2%;
+	position: absolute;
+	/*border: 1px solid red;*/
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+.my h1{
+	color: #fff;
+	font-size: 28px;
+	word-spacing: 5px;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.my h2{
+	color: #fff;
+	font-size: 26px;
+	word-spacing: 5px;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.my p{
+	margin:10;
+	padding:0;
+	font-size:150%;
+	font-weight:lighter;
+    color:#fff;
+}

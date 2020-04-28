@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Admin login form</title>
+<body>
+<link rel="stylesheet" type="text/css" href="style.css">
+</body>
+<div class="loginbox">
+<h1> Admin login </h1>
+<form>
+<p>Username</p>
+<input type="text" name="" placeholder="Enter Username">
+<p>Password</p>
+<input type="password" name="" placeholder="Enter Password">
+<input type="submit" name="" value="Login">
+<a href="#">Lost your password?</a><br>
+<?php
+if(isset($_post['submit'])){
+  $uname=$_POST['username'];
+  $pwd=$_POST['password];
+  if($uname==hira && $pwd==ota){
+     header('location:main.html');
+	}else{
+	     $msg="something went wrong,";
+		 }
+		}
+?>
+</form>
+</div>
+</head>
+</html>
